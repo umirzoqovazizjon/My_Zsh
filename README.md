@@ -16,7 +16,7 @@ pointers to variables in dynamic allocations, with pointers to functions in\
 the static allocation.
 
 First I implemented "cd -" in the main routine,\
-commit 1cadb000fe6ddd23047964f4221700e2ec6bfa90. Then I reimplemented it\
+Then I reimplemented it\
 using the OLDPWD environment variable, for it to be more canonical.
 
 Gandalf asks for the "quit" command, assignment seems to be asking for\
