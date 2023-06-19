@@ -1,0 +1,32 @@
+my_zsh_cd 
+    find_variable
+    swap_old_pwd 
+        find_variable
+        my_zsh_setenv
+    get_current_dir 
+    set_old_pwd 
+        my_zsh_setenv
+        get_current_dir
+my_zsh_echo 
+    find_variable
+my_zsh_exit 
+my_zsh_pwd 
+
+my_zsh_env 
+my_zsh_setenv 
+    find_variable 
+    copy_environment
+    environment_concat
+my_zsh_unsetenv 
+    copy_environment
+    find_variable
+    environment_concat
+my_zsh_which 
+    find_full_name
+search_for_app 
+
+environment_concat 
+    copy_environment 
+        environment_length
+    environment_length
+free_environment 
